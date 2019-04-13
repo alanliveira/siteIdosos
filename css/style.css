@@ -28,12 +28,12 @@
 }
 
 .container {
-    width: 1200px; 
+    width: 1250px; 
     margin: 0 auto;
 }
 
 /* Formatação do logo da página */
-#logo {
+#logo-menu {
     text-align: center;
 }
 
@@ -69,4 +69,9 @@
 /* Formatação do da viewport onde será o projeto */
 #view-project {
     padding: 75px 0;
+}
+
+#logo-rodape {
+    width: 175px;
+    padding: 20px 0;
 }
