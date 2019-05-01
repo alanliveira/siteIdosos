@@ -1,59 +1,90 @@
-<!-- Instruções para alterar integrar a página no site
-    * Renomeie o nome do arquivo para o nome do grupo, sem caracter especial (ç, ^, /, ...)
--->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <!-- Altere o título da página que você está desevolvendo nos pontos de interrogação -->
-    <title>Site para idosos | ??? </title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exemplo do menu</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main-resposive.css">
 </head>
 <body>
     <div id="content">
         <nav id="menu" class="primary">
-            <div class="container">
-                <div id="logo">
-                    <h1>Site para idosos</h1>
+            <div class="menu-container">
+                <div id="menu-item">
+                    <!-- Logo do menu do site -->
+                    <div id="logo-menu">
+                        <!--  -->
+                        <h1>Site para idosos</h1>
+                    </div>
+                    <!-- Logo do menu hamburguer que será visivel para telas pequenas -->
+                    <label id="menu-icon" for="chbMenu-visible">
+                        <!-- Desenho do menu hamburguer para a visualização com telas reduzidas -->
+                        <svg height="32px" id="layer01" style="enable-background:new 0 0 32 32;" version="1.1" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path  id="draw-menu-icon" d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"/></svg>
+                    </label>
+                    <input type="checkbox" name="chbMenu-visible" id="chbMenu-visible">
+                    <!-- Opções do menu -->
+                    <div id="options">
+                        <ul>
+                            <!-- Lista de link qe navegação dos sites -->
+                            <li><a href="#">Benefícios</a></li>
+                            <li><a href="#">Doe Seu tempo</a></li>
+                            <li><a href="#">EAD</a></li>
+                            <li><a href="#">Entretenimento</a></li>
+                            <li><a href="#">Eventos</a></li>
+                            <li><a href="#">Saúde</a></li>
+                            <li><a href="#">Suas Histórias</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <div id="options">
-                    <ul>
-                        <li><a href="#">Avatar</a></li>
-                        <li><a href="#">Benefícios</a></li>
-                        <li><a href="#">Doe Seu tempo</a></li>
-                        <li><a href="#">EAD</a></li>
-                        <li><a href="#">Entretenimento</a></li>
-                        <li><a href="#">Eventos</a></li>
-                        <li><a href="#">Saúde</a></li>
-                        <li><a href="#">Suas Histórias</a></li>
-                    </ul>'
+                <!-- Icone do avatar -->
+                <div id="avatar">
+                    <label for="ctnAvatar" id="avatar-button">Avatar</label>
                 </div>
             </div>
         </nav>
+        <!-- Sessão que será responsável por mostrar o conteudo do site de cada grupo -->
         <section id="view-project">
-            <!-- Coloque aqui o seu código -->
             <div class="container">
-                <h1>Olá pessoal tudo bem</h1>
-                <h2>Teste do subtítulo  </h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit repudiandae facilis aut non, sint dolore tempora. Earum aliquid magnam enim delectus deserunt voluptatum, voluptas, incidunt necessitatibus, in tempora perferendis possimus?</p>
+                <!-- Inserir aqui a sua página HTML -->
+                <!-- No css definir a propriedade do he -->
+                <iframe src="https://www.google.com" frameborder="0" id="content-group"></iframe>
             </div>
         </section>
         <footer class="primary">
             <div class="container">
-                <!-- rodapé -->
+                <!-- Responsável por agrupar as div do menu -->
                 <div id="degroup">
-                    <ul>
-                        <li>Nome 1</li>
-                        <li>Nome 2</li>
-                        <li>Nome 3</li>
-                        <li>Nome 4</li>
-                        <li>Nome 5</li>
-                        <li>Nome 6</li>
-                    </ul>
+                    <!-- Logo da instituição do aprigio gonzaga -->
+                    <div id="logo-rodape">
+                        <a href="http://www.etecaprigio.com.br/" target="_blank">
+                            <img src="imagens/logo-etec.jpg" alt="Logo da etec aprígio Gonzaga">
+                        </a>
+                    </div>
+                    <!-- Descrição dos membros de grupos  -->
+                    <div id="group-descriptions">
+                        <!-- Alterar o título para o nome do grupo -->
+                        <h4>Integrantes</h4>
+                        <ul>
+                            <!-- Coloque aqui os nomes completos de cada integrante do grupo -->
+                            <li>Nome 1</li>
+                            <li>Nome 2</li>
+                            <li>Nome 3</li>
+                            <li>Nome 4</li>
+                            <li>Nome 5</li>
+                            <li>Nome 6</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </footer>
+        </footer>      
+    </div>
+</div>
+<input type="checkbox" name="ctnAvatar" id="ctnAvatar">
+<div id="avatar-group">
+    <div class="container-avatar">
+        <label for="ctnAvatar">X</label>
     </div>
 </body>
 </html>

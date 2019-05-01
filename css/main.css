@@ -1,0 +1,153 @@
+/* Fontes que serão exportadas no site google fonts */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/* * Formatação geral da página */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Formtação para ocutar o checkbox */
+#chbMenu-visible {
+    display: none;
+}
+
+/* Campo do icone dk menu */
+#menu-icon {
+    display: none;
+}
+
+/* Formatação do icone do menu */
+#draw-menu-icon {
+    fill: rgb(248, 245, 245);
+}
+
+/* Formatação do container que deixa o conteudo da página ao meio */
+.container, .menu-container {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 10px 0;
+    box-sizing: border-box;
+}
+
+/* Formatação do menu principal */
+.primary {
+    background-color: rgb(81, 104, 153);
+    color: rgb(248, 245, 245);
+}
+
+/* Formatação da opções do menu do menu */
+#options ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+/* Formatação dos links dos menus */
+#options ul li a {
+    display: block;
+    text-decoration: none;
+    color: rgb(248, 245, 245);
+    border: 2px solid rgb(248, 245, 245);
+    border-radius: 7px;
+    padding: 10px 15px;
+    font-size: 14pt;
+}
+
+/* formatação para o alinhamento do menu */
+.menu-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+
+/* Formatação do layout do rodapé */
+#degroup {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Formatação do logo do rodapé */
+#logo-rodape, #group-descriptions {
+    width: 175px;
+    height: 150px;;
+    padding-top: 20px;
+}
+
+/* Definição do tamanho da imagem sobre o container do logo rodapé */
+#logo-rodape img {
+    width: 100%;
+}
+
+/* Formatação da div group-descriptions */
+#group-descriptions {
+    padding-left: 10px;
+}
+
+/* Formatação do título do horapé */
+#group-descriptions h4 {
+    margin-bottom: 7px;
+}
+
+/* Formatação dos nomes dos membros do grupo */
+#group-descriptions ul li{
+    list-style: none;
+}
+
+/* Formatação para o conteudo da página */
+#content-group {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+/* Formatação do campo do avatar avatar */
+#avatar {
+    justify-self: right;
+    margin: 0 10px;
+}
+
+/* formatação do botão do avatar */
+#avatar label {
+    padding: 10px;
+    background-color: rgb(248, 245, 245);
+    color: rgb(81, 104, 153);
+}
+
+/* Formatação da janela do avatar */
+#avatar-group {
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.7);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#ctnAvatar:checked + #avatar-group {
+    display: flex;
+}
+
+.container-avatar {
+    width: 90%;
+    height: 90%;
+    background-color: rgb(248, 245, 245);
+    position: relative;
+}
+
+.container-avatar label {
+    position: absolute;
+    right: 0;
+    font-size: 24pt;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    background-color: rgb(197, 31, 31);
+}
+
+#ctnAvatar {
+    display: none;
+}

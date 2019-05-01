@@ -1,0 +1,44 @@
+/* Media querys para responsiidade do site */
+@media screen and (max-width: 1024px)
+{
+    /* Formatação do container da página */
+    .container, .menu-container {
+        width: 100%;
+        box-sizing: border-box;
+        padding-left: 10px;
+    }
+
+    /* Formatação para aparecer o icone do menu */
+    #menu-icon {
+        display: block;
+    }
+
+    /* Formatação para fazer um menu suspenso */
+    #menu-item {
+        position: relative;
+    }
+
+    /* formatação para deixar o menu mais ajustavel */
+    #options {
+        position: absolute;
+        top: 70px;
+        background-color: rgb(81, 104, 153);
+        padding: 0 10px 5px 10px;
+    }
+
+    /* Formatação que irá ocutar as opções */
+    #options {
+        display: none;
+    }
+
+    /* Formatação que irá controla a visibilidade do menu */
+    #chbMenu-visible:checked + div {
+        display: block;
+    }
+
+    /* Formatação para deixar as opções do menu nas linhas */
+    #options ul li {
+        display: block;
+        margin: 5px 0;
+    }
+}
