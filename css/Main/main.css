@@ -37,6 +37,12 @@
     color: rgb(248, 245, 245);
 }
 
+/* Formatação do logo da página */
+#logo-menu a{
+    color: rgb(248, 245, 245);
+    text-decoration: none;
+}
+
 /* Formatação da opções do menu do menu */
 #options ul li {
     list-style: none;
@@ -61,7 +67,6 @@
     justify-content: space-between;
     justify-items: center;
 }
-
 
 /* Formatação do layout do rodapé */
 #degroup {
