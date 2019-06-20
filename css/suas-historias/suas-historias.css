@@ -1,0 +1,105 @@
+
+/* Fontes que serão exportadas no site google fonts */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/* Formatação que irá ser aplicada a todos os elementos html */
+p {
+    line-break: 2pt;
+    text-indent: 10pt;
+    margin: 15px;
+    font-size: 28px;
+    text-align: justify;
+}
+
+/* h */
+h1 {
+    /* color: rgb(248, 245, 245); */
+    font-size: 31pt; /* A pensar na fonte */
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2 {
+    font-size: 22pt;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    font-size: 24pt
+}
+
+/* */
+img {
+    width: 60%;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* ID'S */
+#menu3{
+    text-align: left;
+}
+
+/*Imagens*/
+#img1 {
+    width: 40%;
+}
+
+#img2 {
+    width: 38.5%
+}
+
+#img3 {
+    width: 49%
+}
+
+#img4 {
+    width: 49%
+}
+
+#img5 {
+    width: 1000px;
+    height: 250px;
+}
+
+#formulario {
+    width: 850px; 
+    height: 1280px;
+}
+
+#terezinha {
+    width: 60%;
+}
+#banner {
+    width: 60%;
+}
+
+/* Formatação do da viewport onde será o projeto */
+#view-project {
+    padding: 75px 0;
+}
+
+#Voltar{
+    font-size: 35px;
+    text-align: center;
+}
+
+/*div menu */
+#divmenu3 {
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    -webkit-box-shadow: 0px 0px 7px #000000;
+    -moz-box-shadow: 0px 0px 7px #000000;
+    box-shadow: 0px 0px 7px #000000;
+    border: 0px solid #000000;
+    background-color: #FFFFFF;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18pt;
+    color: #000000;
+    text-align: center;
+}
