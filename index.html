@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/index/index.css">
     <link rel="stylesheet" href="css/index/index-resposive.css">
 </head>
-<body>
+<body onload="avatar('fala', 'botao'); avatar('background');">
     <div id="content">
         <nav id="menu" class="primary">
             <div class="menu-container">
@@ -22,7 +22,7 @@
                         <a href="index.html">
                             <h1>Site para idosos</h1>
                         </a>
-                    </div>
+                    </div>  
                     <!-- Logo do menu hamburguer que será visivel para telas pequenas -->
                     <label id="menu-icon" for="chbMenu-visible">
                         <!-- Desenho do menu hamburguer para a visualização com telas reduzidas -->
@@ -45,7 +45,7 @@
                 </div>
                 <!-- Icone do avatar -->
                 <div id="avatar">
-                    <label for="ctnAvatar" id="avatar-button">Avatar</label>
+                    <label for="ctnAvatar" id="avatar-button" ><img src="imagens/avatar/index.gif" alt=""></label>
                 </div>
             </div>
         </nav>
@@ -55,6 +55,7 @@
                 <!-- Inserir aqui a sua página HTML -->
                 <!-- No css definir a propriedade do he -->
                 <h1>página inicial</h1>
+
             </div>
         </section>
         <footer class="primary">
@@ -88,8 +89,14 @@
 </div>
 <input type="checkbox" name="ctnAvatar" id="ctnAvatar">
 <div id="avatar-group">
-    <div class="container-avatar">
-        <label for="ctnAvatar">X</label>
-    </div>
+   <div id="fala">
+       <p>
+           Neste site você terá várias opções para lhe ajudar em sua vida.
+        </p>
+       <P>
+           Aqui você saberá quais seus benefícios e terá entretenimento, saúde, EAD (ensino a distância), eventos, e muito mais...
+        </P>   
+   </div>
+</div>
 </body>
 </html>
