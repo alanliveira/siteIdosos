@@ -27,7 +27,7 @@
 .container, .menu-container {
     width: 1000px;
     margin: 0 auto;
-    padding: 10px 0;
+    padding: 10px 20px;
     box-sizing: border-box;
 }
 
@@ -158,4 +158,9 @@
     font-size: 17px;
     font-family: 'Roboto', sans-serif;
     text-align: center;
+}
+
+/* formatação para corrigir os problemas de imagens de background */
+.text-visible {
+    background-color: rgba(248, 245, 245, 0.8);
 }
