@@ -1,30 +1,18 @@
-p{
+p {
     text-align: justify;
     margin: 30px 0px;
 }
 
-p{
+p {
     text-align: justify;
     text-align: left;
 }
 
 #background {
-
     background: url("../../imagens/Doe-seu-tempo/background.jpg") top center;
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    position: fixed;
-    left: 0;
-    right: 0;
-    z-index: -1;
-    filter:blur(3px);
-    -webkit-filter: blur(3px);
 }
 
-body {
-
-}
+body {}
 
 #article-presentation article {
     display: block;

@@ -1,0 +1,59 @@
+.title {
+    background-color: rgb(81, 104, 153);
+    Color: rgb(255, 255, 255);
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+
+P {
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+#itens {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+#itens {
+    display: relative;
+}
+
+.container-itens-img {
+    width: 20%;
+}
+
+.esportestxt {
+    display: none;
+}
+
+.esportesimg:hover .textoativo {
+    display: block;
+}
+
+.esportestxt {
+    background: rgba(81, 104, 153, 0.678);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    top: 0;
+    color: rgb(255, 255, 255)
+}
+
+
+/* Formatação dos títulos dos itens */
+
+h3 {
+    text-align: center;
+}
+
+#view-project {
+    padding: 115px 20px;
+}

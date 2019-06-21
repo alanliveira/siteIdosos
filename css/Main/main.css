@@ -1,55 +1,74 @@
 /* Fontes que serão exportadas no site google fonts */
+
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 /* * Formatação geral da página */
+
 * {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
 
+
 /* Formtação para ocutar o checkbox */
+
 #chbMenu-visible {
     display: none;
 }
 
+
 /* Campo do icone dk menu */
+
 #menu-icon {
     display: none;
 }
 
+
 /* Formatação do icone do menu */
+
 #draw-menu-icon {
     fill: rgb(248, 245, 245);
 }
 
+
 /* Formatação do container que deixa o conteudo da página ao meio */
-.container, .menu-container {
+
+.container,
+.menu-container {
     width: 1000px;
     margin: 0 auto;
     padding: 10px 20px;
     box-sizing: border-box;
 }
 
+
 /* Formatação do menu principal */
+
 .primary {
     background-color: rgb(81, 104, 153);
     color: rgb(248, 245, 245);
 }
 
+
 /* Formatação do logo da página */
-#logo-menu a{
+
+#logo-menu a {
     color: rgb(248, 245, 245);
     text-decoration: none;
 }
 
+
 /* Formatação da opções do menu do menu */
+
 #options ul li {
     list-style: none;
     display: inline-block;
 }
 
+
 /* Formatação dos links dos menus */
+
 #options ul li a {
     display: block;
     text-decoration: none;
@@ -60,7 +79,9 @@
     font-size: 14pt;
 }
 
+
 /* formatação para o alinhamento do menu */
+
 .menu-container {
     display: flex;
     align-items: center;
@@ -68,47 +89,65 @@
     justify-items: center;
 }
 
+
 /* Formatação do layout do rodapé */
+
 #degroup {
     display: flex;
     flex-direction: row;
 }
 
+
 /* Formatação do logo do rodapé */
-#logo-rodape, #group-descriptions {
+
+#logo-rodape,
+#group-descriptions {
     width: 175px;
-    height: 150px;;
+    height: 150px;
+    ;
     padding-top: 20px;
 }
 
+
 /* Definição do tamanho da imagem sobre o container do logo rodapé */
+
 #logo-rodape img {
     width: 100%;
 }
 
+
 /* Formatação da div group-descriptions */
+
 #group-descriptions {
     padding-left: 10px;
 }
 
+
 /* Formatação do título do horapé */
+
 #group-descriptions h4 {
     margin-bottom: 7px;
 }
 
+
 /* Formatação dos nomes dos membros do grupo */
-#group-descriptions ul li{
+
+#group-descriptions ul li {
     list-style: none;
 }
 
+
 /* Formatação para o conteudo da página */
+
 #content-group {
     width: 100%;
     height: auto;
     margin: 0 auto;
 }
 
+
 /* Formatação do campo do avatar avatar */
+
 #avatar {
     justify-self: right;
     margin: 0 10px;
@@ -126,9 +165,10 @@
 
 
 /* Formatação da janela do avatar */
+
 #avatar-group {
     position: fixed;
-    bottom:145px;
+    bottom: 145px;
     right: 3px;
     margin-bottom: 40px;
     width: 250px;
@@ -146,7 +186,7 @@
     color: white;
 }
 
-#ctnAvatar:checked + #avatar-group {
+#ctnAvatar:checked+#avatar-group {
     display: flex;
 }
 
@@ -154,13 +194,56 @@
     display: none;
 }
 
-#fala p{
+#fala p {
     font-size: 17px;
     font-family: 'Roboto', sans-serif;
     text-align: center;
 }
 
+
 /* formatação para corrigir os problemas de imagens de background */
+
 .text-visible {
     background-color: rgba(248, 245, 245, 0.8);
+}
+
+
+/* Formatação dos paragrafos */
+
+p {
+    line-break: 2pt;
+    text-indent: 30pt;
+    margin: 12px 0;
+}
+
+
+/* Formatação do título principal */
+
+h1 {
+    /* color: rgb(248, 245, 245); */
+    font-size: 31pt;
+    /* A pensar na fonte */
+    text-transform: uppercase;
+}
+
+
+/* Formatação do título secundário */
+
+h2 {
+    font-size: 22pt;
+}
+
+
+/* Formatação do background de fundo */
+
+#background {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
 }

@@ -1,0 +1,23 @@
+.container-jogos {
+    display: flex;
+    clear: both;
+}
+
+.jogos-imagem {
+    width: 30%;
+    height: 300px;
+}
+
+.jogos-text {
+    background: rgba(151, 148, 148, 0.39);
+    border-radius: 30px;
+    padding: 20px;
+    margin: 10px 0 10px 60px;
+    width: 50%;
+    height: auto;
+    font-family: "Roboto", sans-serif;
+}
+
+hr {
+    margin: 20PX;
+}

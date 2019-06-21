@@ -1,0 +1,58 @@
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    Color: rgb(0, 206, 209);
+    text-align: center;
+    margin-bottom: 1cm;
+}
+
+p {
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    margin: 1cm;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin: 1cm;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: rgb(0, 206, 209);
+    background-color: rgb(81, 104, 153);
+}
+
+.group-receitas {
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-receita {
+    width: 20%;
+    height: 20%;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.item-receita img {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+}
+
+#background {
+    background-image: url("../../imagens/entretenimento/Arroz.jpg");
+}
+
+.container {
+    padding: 0 0 20px 0;
+}
+
+.group-receitas {
+    margin: 20px 0;
+}
