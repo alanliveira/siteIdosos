@@ -1,0 +1,54 @@
+h2{
+     font-size:20px;
+	 margin:1cm;
+	 font-family:'Roboto',serif;
+	 
+}
+
+h1{
+color:rgb(0, 0, 0);
+text-align:center;
+margin:1cm;
+font-family:'Roboto',serif;
+font-size:40px;
+}
+
+h3{
+	font-family:'Roboto',serif;
+	font-size:20px;
+	margin:1cm;
+}
+
+h4{
+	font-family:'Roboto',serif;
+	font-size:20px;
+	margin:1cm;
+}
+	
+p{
+text-align:justify;
+font-family:'Roboto',serif;
+margin:1cm;
+font-size:20px;
+}
+
+body{
+	<body background="http://penhavip.com.br/wp-content/uploads/2019/01/Cart%C3%A3o-de-Estacionamento-para-Idosos-pode-ser-solicitado-nas-Subprefeituras-ou-Prefeituras-Regionais.jpg">;
+	background-color:rgb(242,255,252);
+	background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+
+
+}
+
+img{
+	padding:5px;
+	padding-left:150px;
+}
+
+a:link{
+	font-family:'Roboto',serif;
+	font-size:20px;
+	margin:1cm;
+}

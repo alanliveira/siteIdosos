@@ -1,0 +1,15 @@
+.card-beneficios {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    background-color: rgb(182, 181, 181);
+    margin: 10px 0;
+    border-radius: 20px;
+}
+
+.card-beneficios a {
+    text-decoration: none;
+    display: block;
+    padding: 50px;
+}

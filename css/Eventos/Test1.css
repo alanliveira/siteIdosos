@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/* Formatação que irá ser aplicada a todos os elementos html */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(253, 253, 253);
+    font-family: 'Roboto', sans-serif;
+    color: rgb(54, 54, 54);
+    font-family: 'Roboto', sans-serif;
+    font-size: 15pt;
+}
+
+p {
+    line-break: 2pt;
+    text-indent: 30pt;
+    margin: 12px 0;
+	text-align: justify;
+}
+
+h1 {
+    /* color: rgb(248, 245, 245); */
+    font-size: 31pt; /* A pensar na fonte */
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 22pt;
+    padding: 10px;
+    
+}
+
+
+#barra1 {
+    padding: 50px 20px;
+}
+
+#barra2 {
+    padding: 50px 20px;
+}
+
+/*CSS PARA A PAGINA TESTE*/ 
+
+.cont {
+	position: relative;
+	width: 55%;
+	top: 20px;
+	left: 25px;
+	
+}
+
+.contmusica {
+	position: relative;
+	width: 55%;
+	top: -207px;
+	left: 410px; 	
+}
+
+.contteatro {
+	position: relative;
+	width: 55%;
+	top: -434px;
+	left: 790px; 
+}
+
+.contpalestra {
+	position: relative;
+	width: 55%;
+	top: -300px;
+	left: 25px; 
+}
+
+.contshow {
+	position: relative;
+	width: 55%;
+	top: -526.2px;
+	left: 415px; 
+}
+
+.contvelhinha {
+	position: relative;
+	width: 56%;
+	top: -754px;
+	left: 785px; 
+}
+
+.image {
+	display: block;
+	width: 50%;
+	height: auto;
+	/*margin: 0px 20px 20px 5px;*/
+}
+
+.overlay {
+	
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 50%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: rgb(4, 44, 129);
+}
+
+.cont:hover .overlay {
+	opacity: 1;
+`}
+
+.contmusica:hover .overlay{
+	opacity: 1;
+}
+
+.contteatro:hover .overlay {
+	opacity: 1;
+}
+
+.contpalestra:hover .overlay{
+	opacity: 1;
+}
+
+.contshow:hover .overlay{
+	opacity: 1;
+}
+
+.contvelhinha:hover .overlay{
+	opacity: 1;
+}
+
+.text {
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.text a{
+	color: white;
+	text-decoration: none;
+	font-size: 35px;
+}
+
+
+.pagimage {
+		margin: 0px 20px 20px 5px;
+}
+
+
+/*Codigo de configuração da PAGINA DANÇA*/
+.pagdanca img {
+	width:250px;
+	height:200px;
+	display: block;
+	float: left;
+    margin: 0px 20px 20px 5px;
+	
+}
+
+.imgdanca img {
+	
+	width: 30%;
+    margin: 0px 5px 5px 5px;
+}
+
+/*Codigo de configuração da PAGINA MUSICA*/
+
+.pagmusica img {
+	width:250px;
+	height:200px;
+	display: block;
+	float: left;
+    margin: 0px 20px 20px 5px;
+}
+
+.imgmusica img {
+	width: 30%;
+    margin: 0px 5px 5px 5px;
+}
+
+/*Codigo de configuração da PAGINA TEATRO*/
+
+.pagteatro img {
+	width:250px;
+	height:200px;
+	display: block;
+	float: left;
+    margin: 0px 20px 20px 5px;
+}
+
+.imgteatro img {
+	width: 30%;
+    margin: 0px 5px 5px 5px;
+}
+
+/*Codigo de configuração da PAGINA PALESTRA*/
+
+.pagpalestra img {
+	width:250px;
+	height:200px;
+	display: block;
+	float: left;
+    margin: 0px 20px 20px 5px;
+}
+
+.imgpalestra img {
+	width: 30%;
+    margin: 0px 5px 5px 5px;
+}
+
+/*Codigo de configuração da PAGINA SHOW*/
+
+.pagshow img {
+	width:250px;
+	height:200px;
+	display: block;
+	float: left;
+    margin: 0px 20px 20px 5px;
+}
+
+.imgshow img {
+	width: 30%;
+    margin: 0px 5px 5px 5px;
+}
+
+/*Codigo de configuração da PAGINA SHOW*/
+
+.pagfestival img {
+	width:250px;
+	height:200px;
+	display: block;
+	float: left;
+    margin: 0px 20px 20px 5px;
+}
+
+.imgfestival img {
+	width: 30%;
+    margin: 0px 5px 5px 5px;
+}
+
+
+
+/* Código que faz a barra azul no bang do endereço*/
+.lw {
+    border: 0px solid #000000;
+    background-color: #7dbaf35b;
+    padding: 12px;
+    z-index: -10;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 11pt;
+    color: #000000;
+    text-align: left;
+    -webkit-transform:  scale(1.0);
+    -moz-transform:  scale(1.0);
+    -o-transform: scale(1.0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

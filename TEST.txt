@@ -1,0 +1,10 @@
+T<html>
+<head>
+    <title>Botão com CSS3</title>
+</head>
+<body>
+    <div class="content">
+     <a href="#" class="botao01">Botao</a>
+    </div>
+</body>
+</html>

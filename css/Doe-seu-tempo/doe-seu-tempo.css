@@ -8,11 +8,11 @@ p {
     text-align: left;
 }
 
-#background {
-    background: url("../../imagens/Doe-seu-tempo/background.jpg") top center;
-}
 
-body {}
+body {
+    background-color: rgb(235, 235, 253);
+
+}
 
 #article-presentation article {
     display: block;
@@ -28,4 +28,10 @@ body {}
 #article-presentation img {
     width: 40%;
     float: right;
+}
+
+.img1 {
+
+float: left;
+
 }
