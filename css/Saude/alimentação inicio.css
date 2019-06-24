@@ -1,0 +1,25 @@
+div#text {
+    display: block;
+}
+
+div#text ul {
+    list-style: none;
+}
+
+div#text li {
+    background-color: rgb(219, 218, 218);
+    display: inline-block;
+    margin: 5px 5px 10px 5px;
+    height: 30vh;
+    width: 45%;
+}
+
+div#text a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

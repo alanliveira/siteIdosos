@@ -1,0 +1,27 @@
+/* Alinhamentos dos titulos */
+
+.title-center {
+    text-align: center;
+}
+
+.title-primary {
+    background-color: rgb(81, 104, 153);
+    color: rgb(248, 245, 245);
+}
+
+
+/* Formatação da noticia */
+
+.noticia-saude>h1 {
+    margin: 15px 0;
+}
+
+img {
+    display: block;
+    width: 503px;
+    margin: 10px auto;
+}
+
+p {
+    font-size: 15pt;
+}

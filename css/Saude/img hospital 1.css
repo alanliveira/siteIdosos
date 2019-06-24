@@ -1,0 +1,81 @@
+/*zona norte*/
+
+.content-saude {
+    display: grid;
+    grid-template-areas: "zona-norte zona-leste" "zona-centro zona-centro" "zona-sul zona-oeste";
+}
+
+.container-zonaHospital {
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 9px 7px 15px rgba(50, 50, 50, 0.77);
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    margin: 10px;
+}
+
+.container-zonasize-50 {
+    width: 450px;
+    height: 300px;
+}
+
+.container-zonasize-100 {
+    width: 930px;
+    height: 300px;
+}
+
+.container-zonaHospital a {
+    position: absolute;
+    text-decoration: none;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt-zonasHospital {
+    box-shadow: 0px 7px 15px rgba(50, 50, 50, 0.77);
+    color: rgb(255, 255, 255);
+    background-color: rgba(81, 104, 153, 0.658);
+    border-radius: 10px;
+    font-family: 'Agency FB';
+    font-size: 90px;
+    opacity: 0;
+    margin: 5px 10px;
+    display: block;
+}
+
+.container-zonaHospital a:hover div {
+    opacity: 1;
+}
+
+
+/* background das zonas */
+
+#zona-norte {
+    grid-area: zona-norte;
+    background-image: url("../../imagens/saude/mercado Santana Zona Norte.jpg");
+}
+
+#zona-leste {
+    grid-area: zona-leste;
+    background-image: url("../../imagens/saude/capa zona leste.jpg");
+}
+
+#zona-centro {
+    grid-area: zona-centro;
+    background-image: url("../../imagens/saude/Zona Central.jpg");
+}
+
+#zona-sul {
+    grid-area: zona-sul;
+    background-image: url("../../imagens/saude/desentupidora zona sul sao paulo.jpg");
+}
+
+#zona-oeste {
+    grid-area: zona-oeste;
+    background-image: url("../../imagens/saude/Espelhos_d`´agua.jpg");
+}

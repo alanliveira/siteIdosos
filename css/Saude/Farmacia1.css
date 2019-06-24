@@ -1,0 +1,30 @@
+h1 {
+    font-family: "Roboto";
+    font-size: 30px;
+}
+
+#wrap {
+    width: 1000px;
+    height: 1000px;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+    font-size: 25px;
+}
+
+#wrap a {
+    text-decoration: none;
+}
+
+header nav ul a {
+    display: inline-block;
+    width: 175px;
+    height: auto;
+    color: rgb(145, 115, 52);
+    text-decoration: none;
+    margin: 1px;
+}
+
+header nav ul a:hover {
+    text-decoration: underline;
+}

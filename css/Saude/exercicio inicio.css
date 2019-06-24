@@ -1,0 +1,28 @@
+div#text {
+    display: block;
+}
+div#text ul{
+    position: absolute;
+	top: 200px;
+	left: 275px;
+}
+div#text li{
+    background-color: rgb(228, 225, 225);
+	display: inline-block;
+	margin: 5px;
+    padding:15px;
+    border-radius: 10px;
+}
+div#text a{
+    color: black;
+}
+/*img idoso */
+div#img {
+    display: block;
+}
+div#img ul {
+    list-style:none ;
+    position: absolute;
+	top: 215px;
+	left: 285px;
+}

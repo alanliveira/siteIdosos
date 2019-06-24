@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Saúde | Site para Idosos</title>
+    <link rel="stylesheet" href="../../css/main/main.css">
+    <link rel="stylesheet" href="../../css/main/main-resposive.css">
+    <!-- Folha de estilos para cada grupo -->
+    <link rel="stylesheet" href="../../css/Saude/saude.css">
+    <link rel="stylesheet" href="../../css/Saude/saude-resposive.css">
+
+    <link rel="stylesheet" href="../../css/Saude/menu.css">
+    <link rel="stylesheet" href="../../css/saude/cards.css">
+</head>
+
+</head>
+
+<body>
+    <div id="content">
+        <nav id="menu" class="primary">
+            <div class="menu-container">
+                <div id="menu-item">
+                    <!-- Logo do menu do site -->
+                    <div id="logo-menu">
+                        <!-- Logo da página (A implementar) -->
+                        <a href="../../index.html">
+                            <h1>Site para idosos</h1>
+                        </a>
+                    </div>
+                    <!-- Logo do menu hamburguer que será visivel para telas pequenas -->
+                    <label id="menu-icon" for="chbMenu-visible">
+                            <!-- Desenho do menu hamburguer para a visualização com telas reduzidas -->
+                            <svg height="32px" id="layer01" style="enable-background:new 0 0 32 32;" version="1.1"
+                                viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <path id="draw-menu-icon"
+                                    d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z" />
+                                </svg>
+                        </label>
+                    <input type="checkbox" name="chbMenu-visible" id="chbMenu-visible">
+                    <!-- Opções do menu -->
+                    <div id="options">
+                        <ul>
+                            <!-- Lista de link qe navegação dos sites -->
+                            <li><a href="../../beneficios.html">Benefícios</a></li>
+                            <li><a href="../../doe-seu-tempo.html">Doe Seu tempo</a></li>
+                            <li><a href="../../ead.html">EAD</a></li>
+                            <li><a href="../../entretenimento.html">Entretenimento</a></li>
+                            <li><a href="../../eventos.html">Eventos</a></li>
+                            <li><a href="../../saude.html">Saúde</a></li>
+                            <li><a href="../../suas-historias.html">Suas Histórias</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Icone do avatar -->
+                <div id="avatar">
+                    <label for="ctnAvatar" id="avatar-button"><img src="../../imagens/Avatar/saude.gif" alt=""></label>
+                </div>
+            </div>
+        </nav>
+        <!-- Sessão que será responsável por mostrar o conteudo do site de cada grupo -->
+        <section id="view-project">
+            <div class="container">
+                <nav id="menu-saude">
+                    <ul>
+                        <li class="menu-saudeOptions">
+                            <a href="../../saude.html">novidades</a>
+                        </li>
+                        <li class="menu-saudeOptions">
+                            <a href="exercicios.html">Exercício</a>
+                        </li>
+                        <li class="menu-saudeOptions">
+                            <a href="alimentacao-index.html">Alimentação</a>
+                        </li>
+                        <li class="menu-saudeOptions">
+                            <a href="farmacia.html">Farmácia</a>
+                        </li>
+                        <li class="menu-saudeOptions" id="menu-saudeActive">
+                            <a href="hospital-index.html">Hospital</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="card-novidade">
+                    <a href="https://www.google.com.br/maps/place/Hospital+Municipal+Tide+Setubal/@-23.4970547,-46.4400499,13z/data=!4m8!1m2!2m1!1shospital+p%C3%BAblico!3m4!1s0x94ce6161cd796fe9:0x85bb74ebe56e2d50!8m2!3d-23.4971001!4d-46.4400249?hl=pt-BR">
+                        <div class="imagem-novidades">
+                            <img src="../../imagens/saude/tide.jpg">
+                        </div>
+
+                        <div class="descriptions-novidades">
+                            <h2> Hospital Municipal Tide Setubal: </h2>
+                            <p> R. Dr. José Guilherme Eiras, 123 - Vila Dr. Eiras, São Paulo <br> - SP, 08010-220</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="card-novidade">
+                    <a href="https://www.google.com.br/maps/place/Hospital+Municipal+Professor+Doutor+Al%C3%ADpio+Corr%C3%AAa+Netto+-+Ermelino+Matarazzo/@-23.4994618,-46.4772883,16z/data=!4m8!1m2!2m1!1shospital+p%C3%BAblico!3m4!1s0x94ce681f25be12bf:0x4a5e1c38d04f8b3!8m2!3d-23.4998534!4d-46.4728428?hl=pt-BR">
+                        <div class="imagem-novidades">
+                            <img src="../../imagens/saude/kkkkk.png">
+                        </div>
+
+                        <div class="descriptions-novidades">
+                            <h2> Hospital M. Prof. Doutor Alípio Corrêa Netto: </h2>
+                            <p> Alameda Rodrigo de Brum, 1989 - Ermelino Matarazzo, <br> São São Paulo - SP, 03807-230</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="card-novidade">
+                    <a href="https://www.google.com.br/maps/place/Autarquia+Hospitalar+Municipal+Regional+de+Ermelino+Matarazzo/@-23.530764,-46.445005,19z/data=!4m12!1m6!3m5!1s0x94ce66a5ee954fdb:0xea041e1eecf144e5!2sAutarquia+Hospitalar+Municipal+Regional+de+Ermelino+Matarazzo!8m2!3d-23.5311142!4d-46.4445247!3m4!1s0x94ce66a5ee954fdb:0xea041e1eecf144e5!8m2!3d-23.5311142!4d-46.4445247?hl=pt-BR">
+                        <div class="imagem-novidades">
+                            <img src="../../imagens/saude/Autarquia Hospitalar Municipal Regional de Ermelino Matarazzo.png">
+                        </div>
+
+                        <div class="descriptions-novidades">
+                            <h2>Hospital Municipal Prof. Waldomiro de Paula:</h2>
+                            <p> R. Augusto Carlos Bauman, 1074 - Itaquera, <br> São São Paulo - SP, 08210-590</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="card-novidade">
+                    <a href="https://www.google.com.br/maps/place/Hospital+Geral+de+Guaianazes/@-23.558842,-46.4001594,13z/data=!4m8!1m2!2m1!1shospital+p%C3%BAblico!3m4!1s0x94ce65a8cfc461f1:0xcbea0bea9b7b3059!8m2!3d-23.5524756!4d-46.4051716?hl=pt-BR">
+                        <div class="imagem-novidades">
+                            <img src="../../imagens/saude/Hospital Geral de Guaianazes.jpg">
+                        </div>
+
+                        <div class="descriptions-novidades">
+                            <h2> Hospital Geral de Guaianazes:</h2>
+                            <p> Av. Miguel Achiole da Fonseca, 135 - Jardim Sao Paulo, <br> São Paulo - SP, 08461-110</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="card-novidade">
+                    <a href="https://www.google.com.br/maps/place/Hospital+Planalto/@-23.5311296,-46.4467998,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce66a53a2c6e09:0xf1ba8acdb4d3e6fa!8m2!3d-23.5311345!4d-46.4446111?hl=pt-BR">
+                        <div class="imagem-novidades">
+                            <img src="../../imagens/saude/2016 10 24.jpg">
+                        </div>
+
+                        <div class="descriptions-novidades">
+                            <h2> Unidade Básica de Saúde - Vila Califórnia:</h2>
+                            <p> Praça Conde de São Januário, 91 - Vila California,<br> São Paulo - SP, 03215-080</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="card-novidade">
+                    <a href="https://www.google.com.br/maps/place/Hospital+Maternidade+Leonor+Mendes+Barros/@-23.5363723,-46.5806099,13z/data=!4m8!1m2!2m1!1shospital+p%C3%BAblico!3m4!1s0x94ce5ed6a7cff4f9:0x5cc3f2b076180fa5!8m2!3d-23.535934!4d-46.588712?hl=pt-BR">
+                        <div class="imagem-novidades">
+                            <img src="../../imagens/saude/4405007698 2ca5ab8517 b.jpg">
+                        </div>
+
+                        <div class="descriptions-novidades">
+                            <h2> Hospital Estad. de Sapopemba Unidade Local:</h2>
+                            <p> Av. R. Manuel França dos Santos, 174 - Vila Sapopemba, <br> São Paulo - SP, 03975-130</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="card-novidade">
+                    <a href="https://www.google.com.br/maps/place/Hospital+Maternidade+Leonor+Mendes+Barros/@-23.5363723,-46.5806099,13z/data=!4m8!1m2!2m1!1shospital+p%C3%BAblico!3m4!1s0x94ce5ed6a7cff4f9:0x5cc3f2b076180fa5!8m2!3d-23.535934!4d-46.588712?hl=pt-BR">
+                        <div class="imagem-novidades">
+                            <img src="../../imagens/saude/uga_iv.jpg">
+                        </div>
+
+                        <div class="descriptions-novidades">
+                            <h2> Hospital Estadual Vila Alpina:</h2>
+                            <p>Av. Francisco Falconi, 1501 - Jardim Avelino, <br> São Paulo - SP, 03227-000</p>
+                            </li>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="card-novidade">
+                    <a href="https://www.google.com.br/maps/place/Hospital+Maternidade+Leonor+Mendes+Barros/@-23.5363723,-46.5806099,13z/data=!4m8!1m2!2m1!1shospital+p%C3%BAblico!3m4!1s0x94ce5ed6a7cff4f9:0x5cc3f2b076180fa5!8m2!3d-23.535934!4d-46.588712?hl=pt-BR">
+                        <div class="imagem-novidades">
+                            <img src="../../imagens/saude/Hospital Central de Guaianases.png">
+                        </div>
+                        <div class="descriptions-novidades">
+                            <h2> Hospital Central de Guaianases:</h2>
+                            <p> Rua Cabo José Teixeira, 189 - Vila Iolanda(Lajeado), <br> São Paulo - SP, 08451-010</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="navigation-pages">
+                    <ul>
+                        <li>
+                            <a href="hospital-zl.html">
+                                &lt;
+                            </a>
+                        </li>
+                        <li>
+                            <a href="hospital-zl.html">
+                                0
+                            </a>
+                        </li>
+                        <li>
+                            <a href="hospital-zl2.html">
+                                1
+                            </a>
+                        </li>
+                        <li>
+                            <a href="hospital-zl2.html">
+                                &gt;
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+        <footer class="primary">
+            <div class="container">
+                <!-- Responsável por agrupar as div do menu -->
+                <div id="degroup">
+                    <!-- Logo da instituição do aprigio gonzaga -->
+                    <div id="logo-rodape">
+                        <a href="http://www.etecaprigio.com.br/" target="_blank">
+                            <img src="../../imagens/main/logo-etec.jpg" alt="Logo da etec aprígio Gonzaga">
+                        </a>
+                    </div>
+                    <!-- Descrição dos membros de grupos  -->
+                    <div id="group-descriptions">
+                        <!-- Alterar o título para o nome do grupo -->
+                        <h4>Integrantes</h4>
+                        <ul>
+                            <!-- Coloque aqui os nomes completos de cada integrante do grupo -->
+                            <li>Alexandre</li>
+                            <li>Edson</li>
+                            <li>Jeferson</li>
+                            <li>Nicole</li>
+                            <li>Renam</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    </div>
+    <input type="checkbox" name="ctnAvatar" id="ctnAvatar">
+    <div id="avatar-group">
+        <div id="fala">
+            <p>
+                Venha conhecer uma alimentação saudável melhor.
+            </p>
+            <p>
+                Na área de saúde você terá ajuda para uma alimentação saudável e farmácias mais próximas de sua região.
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>

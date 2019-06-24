@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Saúde | Site para Idosos</title>
+    <link rel="stylesheet" href="../../css/main/main.css">
+    <link rel="stylesheet" href="../../css/main/main-resposive.css">
+    <!-- Folha de estilos para cada grupo -->
+    <link rel="stylesheet" href="../../css/Saude/saude.css">
+    <link rel="stylesheet" href="../../css/Saude/saude-resposive.css">
+
+    <link rel="stylesheet" href="../../css/Saude/menu.css">
+    <!-- Coloque aqui a folha de estilo que você irá utilizar no projeto -->
+    <link rel="stylesheet" href="../../css/saude/noticia.css">
+</head>
+
+<body>
+    <div id="content">
+        <nav id="menu" class="primary">
+            <div class="menu-container">
+                <div id="menu-item">
+                    <!-- Logo do menu do site -->
+                    <div id="logo-menu">
+                        <!-- Logo da página (A implementar) -->
+                        <a href="../../index.html">
+                            <h1>Site para idosos</h1>
+                        </a>
+                    </div>
+                    <!-- Logo do menu hamburguer que será visivel para telas pequenas -->
+                    <label id="menu-icon" for="chbMenu-visible">
+                            <!-- Desenho do menu hamburguer para a visualização com telas reduzidas -->
+                            <svg height="32px" id="layer01" style="enable-background:new 0 0 32 32;" version="1.1"
+                                viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <path id="draw-menu-icon"
+                                    d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z" />
+                                </svg>
+                        </label>
+                    <input type="checkbox" name="chbMenu-visible" id="chbMenu-visible">
+                    <!-- Opções do menu -->
+                    <div id="options">
+                        <ul>
+                            <!-- Lista de link qe navegação dos sites -->
+                            <li><a href="../../beneficios.html">Benefícios</a></li>
+                            <li><a href="../../doe-seu-tempo.html">Doe Seu tempo</a></li>
+                            <li><a href="../../ead.html">EAD</a></li>
+                            <li><a href="../../entretenimento.html">Entretenimento</a></li>
+                            <li><a href="../../eventos.html">Eventos</a></li>
+                            <li><a href="../../saude.html">Saúde</a></li>
+                            <li><a href="../../suas-historias.html">Suas Histórias</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Icone do avatar -->
+                <div id="avatar">
+                    <label for="ctnAvatar" id="avatar-button"><img src="../../imagens/Avatar/saude.gif" alt=""></label>
+                </div>
+            </div>
+        </nav>
+        <!-- Sessão que será responsável por mostrar o conteudo do site de cada grupo -->
+        <section id="view-project">
+            <div class="container">
+                <nav id="menu-saude">
+                    <ul>
+                        <li class="menu-saudeOptions">
+                            <a href="../../saude.html">novidades</a>
+                        </li>
+                        <li class="menu-saudeOptions">
+                            <a href="exercicios.html">Exercício</a>
+                        </li>
+                        <li class="menu-saudeOptions" id="menu-saudeActive">
+                            <a href="alimentacao-index.html">Alimentação</a>
+                        </li>
+                        <li class="menu-saudeOptions">
+                            <a href="farmacia.html">Farmácia</a>
+                        </li>
+                        <li class="menu-saudeOptions">
+                            <a href="hospital-index.html">Hospital</a>
+                        </li>
+                    </ul>
+                </nav>
+                <article class="noticia-saude">
+                    <h1 class="title-center title-primary">Recomendações</h1>
+                    <h2 class="title-center">Alimentação saudável</h2>
+                    <p>Horários de rotina para comer e tente segui-los (café da manhã, almoço, café da tarde e jantar) e, caso necessite de mais, faça outras refeições nos intervalos com alimentos de qualidade.</p>
+                    <h2 class="title-center"> Escolha um lugar agradável para se alimentar.</h2>
+                    <p>Ambientes limpos, tranquilos e arejados conferem maior conforto, segurança e autonomia. Impactam positivamente na autoestima, no preparo das refeições e no prazer à mesa. </p>
+                    <h2 class="title-center">Desfrute de companhia em suas refeições.</h2>
+                    <p>A presença de familiares, amigos ou vizinhos na hora das refeições proporciona mais prazer e favorece o apetite. Escolha uma ou mais refeições na semana para estar na companhia de alguém, mantendo a alegria do convívio social com pessoas
+                        queridas.
+                    </p>
+                    <h2 class="title-center">Prefira os alimentos na sua forma mais natural.</h2>
+                    <p>Diminua o consumo de alimentos ultraprocessados (como biscoitos recheados, guloseimas, ‘salgadinhos’, sopa e macarrão ‘instantâneo’, ‘tempero pronto’, embutidos etc). Eles tendem a conter quantidades elevadas de açúcar, gordura e sal.
+                        Quanto mais alimentos verdadeiros (in natura), mais aumenta a qualidade do que está comendo.</p>
+                    <h2 class="title-center">Coma devagar e mastigue bem os alimentos.</h2>
+                    <p>A nossa 5ª dica sobre alimentação saudável para idosos é para degustar como se estivesse descobrindo os alimentos pela primeira vez, sinta os diferentes sabores. Escute sua fome e saciedade, seu apetite e vontades. Respeite os sinais
+                        de seu organismo. Se tiver limitações para mastigar e engolir, adapte a forma de preparo, a consistência, a textura, o tamanho dos alimentos e a quantidade ingerida. Moer, ralar, picar em pedaços menores pode ser alternativas viáveis
+                        para facilitar o consumo, evitando a recusa da refeição ou mesmo complicações como engasgo ou aspirações.</p>
+                    <h2 class="title-center">Inclua frutas, legumes e verduras na sua alimentação.</h2>
+                    <p> Além de ricos em vitaminas, minerais e fibras, o consumo desses alimentos diminui o risco de várias doenças e auxiliam a função intestinal. Aproveite para comprá-los na safra com menor custo!</p>
+                    <h2 class="title-center">Carnes, aves, peixes, ovos, leite e derivados em uma refeição ao dia.</h2>
+                    <p>Os leites e derivados ajudam no fortalecimento dos ossos. Já as carnes, aves, peixes e os ovos são ricos em proteínas e minerais. Quanto mais variada e colorida for a sua alimentação, mais equilibrada e saborosa ela será.</p>
+                    <h2 class="title-center">Óleos, gorduras, açúcar e sal com moderação</h2>
+                    <p>Diminua o açúcar e o sal em excesso, substituindo os por temperos naturais (como frutas, cheiro verde, alho, cebola, manjericão, orégano, coentro, alecrim, entre outros). Não precisa restringir alimentos, o segredo é a moderação.</p>
+                    <h2 class="title-center">Atente-se a temperatura dos alimentos.</h2>
+                    <p>Alimentos muito quentes ou muito frios devem ser evitados devido à sensibilidade térmica. Alimentos para ser consumidos frios devem ser retirados da geladeira um pouco antes do momento do consumo. E os quentes, devem estar em temperatura
+                        suportável, sem excessos.</p>
+                    <h2 class="title-center">Cozinhe e invista na sua alimentação saudável</h2>
+                    <p>Ajuda você a comer melhor e ingerir menos alimentos processados. E não precisa ser um chef, só com o básico já melhora a sua saúde. Aproveite para compartilhar suas habilidades culinárias com familiares e amigos. Torna a refeição prazerosa
+                        e repleta de felicidade.</p>
+                    <h2 class="title-center">Beba água!</h2>
+                    <p> É a melhor hidratação para seu corpo. Diminua bebidas açucaradas (como refrigerantes e sucos industrializados) e alcoólicas. Aromatizar a água com hortelã ou frutas, como rodelas e cascas de laranja ou limão, é uma boa pedida!</p>
+                    <h2 class="title-center">Faça uma lista de compras.</h2>
+                    <p>É vital para não se esquecer dos ingredientes essenciais para seu jantar e também para evitar comprar mais que o necessário. Se puder também, defina com antecedência o cardápio da semana para garantir a sua satisfação com a alimentação.</p>
+                    <p>Bon appétit!</p>
+                </article>
+            </div>
+        </section>
+        <footer class="primary">
+            <div class="container">
+                <!-- Responsável por agrupar as div do menu -->
+                <div id="degroup">
+                    <!-- Logo da instituição do aprigio gonzaga -->
+                    <div id="logo-rodape">
+                        <a href="http://www.etecaprigio.com.br/" target="_blank">
+                            <img src="../../imagens/main/logo-etec.jpg" alt="Logo da etec aprígio Gonzaga">
+                        </a>
+                    </div>
+                    <!-- Descrição dos membros de grupos  -->
+                    <div id="group-descriptions">
+                        <!-- Alterar o título para o nome do grupo -->
+                        <h4>Integrantes</h4>
+                        <ul>
+                            <!-- Coloque aqui os nomes completos de cada integrante do grupo -->
+                            <li>Alexandre</li>
+                            <li>Edson</li>
+                            <li>Jeferson</li>
+                            <li>Nicole</li>
+                            <li>Renam</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    </div>
+    <input type="checkbox" name="ctnAvatar" id="ctnAvatar">
+    <div id="avatar-group">
+        <div id="fala">
+            <p>
+                Venha conhecer uma alimentação saudável melhor.
+            </p>
+            <p>
+                Na área de saúde você terá ajuda para uma alimentação saudável e farmácias mais próximas de sua região.
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
