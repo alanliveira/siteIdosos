@@ -1,0 +1,82 @@
+body {
+    background-color: rgb(253, 253, 253);
+    font-family: 'Roboto', sans-serif;
+    color: rgb(54, 54, 54);
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 31pt;
+    color: rgb(248, 245, 245);
+    text-align: center;
+    background-color: rgb(81, 104, 153);
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-size: 22pt;
+    color: rgb(248, 245, 245);
+    text-align: center;
+    background-color: rgb(81, 104, 153);
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    font-size: 20pt;
+    color: rgb(248, 245, 245);
+    text-align: center;
+    background-color: rgb(81, 104, 153);
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-size: 14pt;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* img{
+    width: 700px;
+    height: 435px;    
+} */
+
+a {
+    font-size: 14pt;
+    font-family: 'Roboto', sans-serif;
+}
+
+div {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.ordem {
+    width: 224px;
+    height: 140px;
+}
+
+.front {
+    font-family: 'Roboto', sans-serif;
+    width: 950px;
+    margin: auto;
+}
+
+.conteudo {
+    display: table;
+}
+
+.img {
+    margin-left: 20px;
+    float: left;
+}
+
+.texto {
+    float: left;
+    width: 200px;
+    margin-top: -25px;
+    margin-left: 25px;
+    font-family: 'Roboto', sans-serif;
+}

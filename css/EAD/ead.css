@@ -1,0 +1,66 @@
+#background {
+    background-image: url('http://www2.unifap.br/rsmatos/files/2017/01/aluno2.png');
+    background-size: 1000px 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.menu ul li {
+    background-color: #336699;
+    float: left;
+    width: 320px;
+    height: 70px;
+    display: inline-block;
+    text-align: center;
+    line-height: 70px;
+    font-size: 24px;
+    text-align: center;
+    margin: none;
+}
+
+.menu ul li:hover {
+    background-color: #79a6d2;
+}
+
+.menu ul {
+    padding: 0px;
+}
+
+.menu ul ul {
+    display: none;
+}
+
+.menu ul li:hover>ul {
+    display: block;
+    border-radius: 6px;
+}
+
+.menu a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+/* Menu de voltar */
+
+.back ul {
+    list-style: none;
+}
+
+.back li {
+    display: inline-block;
+    width: 100%;
+}
+
+.back li a {
+    text-decoration: none;
+    display: block;
+    background-color: rgb(81, 104, 153);
+    color: rgb(248, 245, 245);
+    border: 5px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 14px;
+    width: 150px;
+    margin: 0 auto;
+}

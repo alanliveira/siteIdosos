@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +12,9 @@
     <link rel="stylesheet" href="css/EAD/ead.css">
     <link rel="stylesheet" href="css/EAD/ead-resposive.css">
 </head>
+
 <body>
+    <div id="background"></div>
     <div id="content">
         <nav id="menu" class="primary">
             <div class="menu-container">
@@ -55,10 +58,24 @@
             <div class="container">
                 <!-- Inserir aqui a sua página HTML -->
                 <!-- No css definir a propriedade do he -->
-                <h1>ead</h1>
+                <nav class="menu">
+                    <ul>
+                        <li><a href="#">Quiz</a>
+                            <ul>
+                                <li><a href="pages/ead/siteidosoinformatica.html" target=”_blank”> Informatica</a>
+                                    <li><a href="pages/ead/crimes-online.html">Prevenção de Crimes virtuais</a>
+                                    </li>
+                                </li>
+                            </ul>
+
+                        </li>
+                        <li><a href="pages/ead/origami.html">Origamis</a></li>
+                        <li><a href="pages/ead/libras.html">Libras</a></li>
+                    </ul>
+                </nav>
             </div>
         </section>
-        <footer class="primary">
+        <footer class="primary" id="footer-bottom">
             <div class="container">
                 <!-- Responsável por agrupar as div do menu -->
                 <div id="degroup">
@@ -74,26 +91,25 @@
                         <h4>Integrantes</h4>
                         <ul>
                             <!-- Coloque aqui os nomes completos de cada integrante do grupo -->
-                            <li>Nome 1</li>
-                            <li>Nome 2</li>
-                            <li>Nome 3</li>
-                            <li>Nome 4</li>
-                            <li>Nome 5</li>
-                            <li>Nome 6</li>
+                            <li>Beymar</li>
+                            <li>Gabriel</li>
+                            <li>Leonardo</li>
+                            <li>Vinicius</li>
                         </ul>
                     </div>
                 </div>
             </div>
-        </footer>      
+        </footer>
     </div>
-</div>
-<input type="checkbox" name="ctnAvatar" id="ctnAvatar">
-<div id="avatar-group">
-    <div id="fala">
-        <p>
-            Aqui você poderá aprender várias coisas como origamis, libras o básico que o seu computador pode fazer.
-        </p>
     </div>
-</div>
+    <input type="checkbox" name="ctnAvatar" id="ctnAvatar">
+    <div id="avatar-group">
+        <div id="fala">
+            <p>
+                Aqui você poderá aprender várias coisas como origamis, libras o básico que o seu computador pode fazer.
+            </p>
+        </div>
+    </div>
 </body>
+
 </html>

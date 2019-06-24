@@ -246,4 +246,19 @@ h2 {
     z-index: -1;
     filter: blur(3px);
     -webkit-filter: blur(3px);
+    -webkit-z-index: -20;
+    -moz-z-index: -20;
+    -ms-z-index: -20;
+    -o-z-index: -20;
+    z-index: -20;
+}
+
+
+/* formatação paa o menu ficar na parte inferior da página */
+
+#footer-bottom {
+    position: absolute;
+    width: 100%;
+    z-index: -10;
+    bottom: 0;
 }
